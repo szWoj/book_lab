@@ -12,7 +12,7 @@ book_2 = Book("My second book", author_2)
 book_repository.save(book_1)
 book_repository.save(book_2)
 
-book_repository.delete(book_1.id)
+# book_repository.delete(book_1.id)
 all_books = book_repository.select_all()
 for book in all_books:
     print(book.__dict__)
